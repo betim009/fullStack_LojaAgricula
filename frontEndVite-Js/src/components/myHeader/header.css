@@ -1,7 +1,24 @@
 .myHeader {
     background-color: oklch(79.2% 0.209 151.711);
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
 }
 
 .active {
     font-weight: 600;
+}
+
+a {
+    color: black;
+}
+
+.nav-rigth {
+    display: flex;
+    gap: 10px;
+
+    a {
+        font-style: italic;
+    }
 }

@@ -1,10 +1,11 @@
+import "./myFormLogin.css";
 import MyInputSubmit from "../ui/myInputSubmit";
 import MyInputText from "../ui/myInputText";
 
 export default function MyFormLogin({ props }) {
   const { form, handleChange } = props;
   return (
-    <form>
+    <form className="formLogin">
       <MyInputText
         props={{
           className: "text",

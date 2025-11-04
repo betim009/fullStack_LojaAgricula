@@ -1,0 +1,13 @@
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}

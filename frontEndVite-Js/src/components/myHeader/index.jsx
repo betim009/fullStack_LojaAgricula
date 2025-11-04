@@ -6,10 +6,10 @@ export default function MyHeader() {
     <header className="myHeader">
       <nav>
         <NavLink to="/">Inicio</NavLink>
-        <nav>
-          <NavLink to="/login">Login</NavLink>
-          <NavLink to="/registro">Registro</NavLink>
-        </nav>
+      </nav>
+      <nav className="nav-rigth">
+        <NavLink to="/login">Login</NavLink>
+        <NavLink to="/registro">Registro</NavLink>
       </nav>
     </header>
   );

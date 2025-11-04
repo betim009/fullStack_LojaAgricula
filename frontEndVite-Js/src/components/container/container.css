@@ -1,0 +1,8 @@
+.container {
+  min-height: 100vh;
+  background-color: oklch(98.2% 0.018 155.826);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

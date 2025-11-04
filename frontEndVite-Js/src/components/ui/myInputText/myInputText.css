@@ -1,6 +1,7 @@
 .text {
-  border: 1px solid black;
+  border: 1px solid #ccc;
   border-radius: 8px;
   text-align: center;
   padding: 8px;
+  width: 250px;
 }
