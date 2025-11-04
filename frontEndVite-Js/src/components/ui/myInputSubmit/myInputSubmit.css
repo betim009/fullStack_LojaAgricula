@@ -1,0 +1,9 @@
+.submit {
+  background-color: oklch(26.6% 0.065 152.934);
+  border-radius: 10px;
+  width: 100px;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
