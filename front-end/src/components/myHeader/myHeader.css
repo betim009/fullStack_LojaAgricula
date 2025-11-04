@@ -1,0 +1,17 @@
+.my-header {
+    display: flex;
+    background-color: oklch(76.8% 0.233 130.85);
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    
+    a {
+        font-weight: 600;
+    }
+
+    nav {
+        display: flex;
+        gap: 10px;
+    }
+}

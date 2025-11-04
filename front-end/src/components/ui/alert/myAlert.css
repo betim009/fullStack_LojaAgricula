@@ -1,0 +1,27 @@
+.success {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+
+    button {
+        cursor: pointer;
+    }
+}
+
+.failed {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+
+    button {
+        cursor: pointer;
+    }
+}

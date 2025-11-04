@@ -1,0 +1,8 @@
+.form-login {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 400px; /* 420 total*/
+  gap: 10px;
+  border: 1px solid #ccc;
+}
