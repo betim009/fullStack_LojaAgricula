@@ -3,9 +3,9 @@ import MyInputSubmit from "../ui/myInputSubmit";
 import MyInputText from "../ui/myInputText";
 
 export default function MyFormLogin({ props }) {
-  const { form, handleChange } = props;
+  const { form, handleChange, handleSubmit, disabledBtn } = props;
   return (
-    <form className="formLogin">
+    <form className="formLogin" onSubmit={handleSubmit}>
       <MyInputText
         props={{
           className: "text",
@@ -30,6 +30,7 @@ export default function MyFormLogin({ props }) {
         props={{
           className: "submit",
           value: "Confirmar",
+          disabledBtn,
         }}
       />
     </form>

@@ -1,0 +1,33 @@
+.myAlert {
+  max-width: 806px;
+  min-width: 406px;
+  border-radius: 6px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.success {
+  background-color: oklch(26.6% 0.065 152.934);
+  color: white;
+}
+
+.failed, .off {
+  background-color: oklch(63.7% 0.237 25.331);
+  color: white;
+}
+
+.btnClose {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}

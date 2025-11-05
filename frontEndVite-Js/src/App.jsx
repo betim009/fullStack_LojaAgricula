@@ -3,6 +3,7 @@ import Home from "./pages/home";
 import Login from "./pages/login";
 import Layout from "./components/layout";
 import NotFound from "./pages/notFound";
+import Registro from "./pages/registro";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/registro" element={<Registro />} />
         </Route>
         <Route path="/*" element={<NotFound />}/>
       </Routes>
